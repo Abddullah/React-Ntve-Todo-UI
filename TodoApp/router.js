@@ -2,12 +2,8 @@ import React, { Component } from "react";
 import { StackNavigator } from "react-navigation"
 import Home from "./src/component/home"
 import SignUp from "./src/component/signup"
-
-import Signin from "./src/component/signin"
+// import Signin from "./src/component/signin"
 import Todo from "./src/component/todo"
-
-
-
 import * as firebase from 'firebase'
 
 
@@ -37,9 +33,9 @@ const RootStack = StackNavigator({
  
 
 
-    signin: {
-        screen: Signin
-    },
+    // signin: {
+    //     screen: Signin
+    // },
  
 
   
